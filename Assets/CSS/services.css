@@ -50,14 +50,13 @@ li a:active{
     font-family: 'Kurale', serif;    
 }
 .service-wrapper{
-    height: 60vh;
-    border: solid red;
+    height: 40vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 .service-card{
-    border: solid yellowgreen;
+    border: solid white;
     border-radius: 20px;
     width: 20vw;
     color: snow;
