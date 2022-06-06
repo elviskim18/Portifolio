@@ -18,7 +18,7 @@
 }
 
 .text{
-    background-color: #aa9f02bd;
+    background-color: #5C4A3B;
     width: 50vw;
     
 }
@@ -72,7 +72,23 @@ nav{
 li{
     display: inline-block;
     padding: 50px;
-    font-size: 1.2em;
+    font-size: 1.5em;
+
+}
+
+/*Links styling*/
+li a:link{
+    color: white;
+    text-decoration: none;
+}
+i a:visited{
+    color: orangered;
+}
+li a:hover{
+    color: black;
+}
+li a:active{
+    color: orangered;
 }
 .backgroundimg p{
     margin-top: 380px;

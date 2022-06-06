@@ -1,5 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Kurale&family=Nunito:ital,wght@0,200;1,200&family=Playfair+Display+SC&family=Roboto+Flex:opsz,wght@8..144,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Kdam+Thmor+Pro&family=Kurale&family=Nunito:ital,wght@0,200;1,200&family=Playfair+Display+SC&family=Roboto+Flex:opsz,wght@8..144,300&display=swap');
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+#background-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.849)),
+                  url("../Images/b1.JPG");
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+li{
+    display: inline-block;
+    padding: 50px;
+    font-size: 1.5em;
+
+}
+
+/*Links styling*/
+li a:link{
+    color: white;
+    text-decoration: none;
+}
+li a:visited{
+    color: yellowgreen;
+}
+li a:hover{
+    color: black;
+}
+li a:active{
+    color: yellowgreen;
+}
+
+/*services*/
+#htext{
+    padding: 50px;
+    color: bisque;
+    font-size: 1.7em;
+    font-weight: lighter;
+    font-family: 'Kurale', serif;    
+}
+.service-wrapper{
+    height: 60vh;
+    border: solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.service-card{
+    border: solid yellowgreen;
+    border-radius: 20px;
+    width: 20vw;
+    color: snow;
+    position: relative;
+}
+.service-card h3{
+    position: absolute;
+    top: 50%;
+    padding: 30px;
+    font-size: 2em;
+}
+#ui{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.849)),
+                  url("../Images/design1.jpg");
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+#code{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.849)),
+                  url("../Images/code2.jpg");
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+#network{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.849)),
+                  url("../Images/network.jpg");
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+
 }
