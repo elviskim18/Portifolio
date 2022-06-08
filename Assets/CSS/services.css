@@ -12,7 +12,7 @@
     
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 230vh;
 }
 nav{
     display: flex;
@@ -43,17 +43,19 @@ li a:active{
 
 /*services*/
 #htext{
-    padding: 50px;
+    padding: 30px;
     color: bisque;
     font-size: 1.7em;
     font-weight: lighter;
     font-family: 'Kurale', serif;    
+    
 }
 .service-wrapper{
-    height: 40vh;
+    height: 63vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    
 }
 .service-card{
     border: solid wrgba(43, 138, 6, 0.678);
@@ -92,4 +94,82 @@ li a:active{
     background-repeat: no-repeat;
     height: 60vh;
 
+}
+
+/*portofolio*/
+.potifolio{
+    margin-top: 10vh;
+}
+#ebe{
+    padding: 50px;
+    color: bisque;
+    background-color: black;
+    font-size: 2em;
+
+}
+.p-container{
+    margin-top: 10vh;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.p-card{
+    border-radius: 20px;
+    width: 20vw;
+    height: 70vh;
+    border: solid black;
+    position: relative;
+
+}
+
+#eventup{
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+                  url("../Images/event2.png");
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+#spotifai{
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+                  url("../Images/spotifai2.png");
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+#jifunze{
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+                  url("../Images/jifunze.png");
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+.p-card button{
+    padding: 15px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: rgba(43, 138, 6, 0.678);
+    font-size: 1.2em;
+}
+/*Link styling*/
+
+.p-card a:link{
+    color: white;
+    text-decoration: none;
+}
+.p-card a:visited{
+    color: yellowgreen;
+}
+.p-card a:hover{
+    color: orangered;
+}
+.p-card a:active{
+    color: rgba(43, 138, 6, 0.678);
 }
